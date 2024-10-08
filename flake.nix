@@ -2,6 +2,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
     flake-parts.url = "github:hercules-ci/flake-parts";
+    flake-compat.url = "github:edolstra/flake-compat";
     treefmt-nix.url = "github:numtide/treefmt-nix";
     systems.url = "github:nix-systems/default";
     rust-overlay.url = "github:oxalica/rust-overlay";
