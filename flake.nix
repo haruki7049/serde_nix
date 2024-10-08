@@ -74,6 +74,7 @@
 
           packages = {
             inherit llvm-cov llvm-cov-text;
+            default = cargo-doc;
             doc = cargo-doc;
           };
 
